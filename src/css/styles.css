@@ -1,18 +1,71 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
-/* Common styles */
-@import url('./reset.css');
-@import url('./base.css');
-@import url('./container.css');
-@import url('./animations.css');
+@import url(./header.css);
 
-/* Sections style */
-@import url('./header.css');
-@import url('./vite-promo.css');
-@import url('./badges.css');
-@import url('./back-link.css');
-@import url('./footer.css');
+@font-face {
+  font-family: 'Jomolhari';
+  src: url('/src/fonts/Jomolhari.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Jomolhari, sans-serif;
+  background: #141a19;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+}
+
+button {
+  display: block;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+  transition: color 250ms;
+}
+
+input,
+select {
+  outline: none;
+}
+
+.container {
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+@media screen and (min-width: 835px) {
+  .container {
+    max-width: 835px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
+}
