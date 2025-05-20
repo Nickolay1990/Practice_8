@@ -14,6 +14,11 @@
   width: 64px;
   height: 46px;
   fill: #fff;
+  transition: transform 250ms;
+}
+.page-header-icon-logo:hover,
+.page-header-icon-logo:focus {
+  transform: scale(1.4);
 }
 .page-header-icon-burger {
   width: 24px;
@@ -53,6 +58,11 @@
   .page-header-nav-list-link {
     font-weight: 700;
     font-size: 18px;
+    transition: color 250ms;
+  }
+  .page-header-nav-list-link:hover,
+  .page-header-nav-list-link:focus {
+    color: rgb(201, 211, 206);
   }
   .page-header-nav {
     display: block;
