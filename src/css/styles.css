@@ -1,72 +1,77 @@
 @import url(./header.css);
 @import url(./hero.css);
+@import url(./mobile.css);
 
 @font-face {
-  font-family: 'Jomolhari';
-  src: url('/fonts/Jomolhari-Regular.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
+	font-family: 'Jomolhari';
+	src: url('/fonts/Jomolhari-Regular.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
 }
 
 * {
-  padding: 0;
-  margin: 0;
+	padding: 0;
+	margin: 0;
 }
 
 img {
-  display: block;
-  max-width: 100%;
+	display: block;
+	max-width: 100%;
 }
 
 ul,
 ol {
-  list-style-type: none;
+	list-style-type: none;
 }
 
 html {
-  scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 body {
-  font-family: Jomolhari, sans-serif;
-  background: #141a19;
-  font-weight: 400;
-  font-size: 16px;
-  color: #fff;
-  line-height: 1.4;
-  letter-spacing: 0.01em;
+	font-family: Jomolhari, sans-serif;
+	background: #141a19;
+	font-weight: 400;
+	font-size: 16px;
+	color: #fff;
+	line-height: 1.4;
+	letter-spacing: 0.01em;
 }
 
 button {
-  display: block;
-  cursor: pointer;
+	display: block;
+	cursor: pointer;
 }
 
 a {
-  text-decoration: none;
-  color: currentColor;
-  transition: color 250ms;
+	text-decoration: none;
+	color: currentColor;
+	transition: color 250ms;
 }
 
 input,
 select {
-  outline: none;
+	outline: none;
 }
 
 .container {
-  max-width: 375px;
-  margin: 0 auto;
-  padding: 0 16px;
+	max-width: 375px;
+	margin: 0 auto;
+	padding: 0 16px;
 }
 
 @media screen and (min-width: 835px) {
-  .container {
-    max-width: 835px;
-  }
+	.container {
+		max-width: 835px;
+	}
 }
 
 @media screen and (min-width: 1440px) {
-  .container {
-    max-width: 1440px;
-  }
+	.container {
+		max-width: 1440px;
+	}
+}
+
+.no-scroll {
+	overflow: hidden;
 }

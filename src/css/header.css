@@ -1,81 +1,86 @@
 .page-header {
-  padding-top: 16px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
+	padding-top: 16px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
 }
 .page-header-wrapper {
-  display: flex;
-  justify-content: space-between;
-  padding: 0 16px;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 16px;
 }
 .page-header-icon-logo {
-  width: 64px;
-  height: 46px;
-  fill: #fff;
-  transition: transform 250ms;
+	width: 64px;
+	height: 46px;
+	fill: #fff;
+	transition: transform 250ms;
 }
 .page-header-icon-logo:hover,
 .page-header-icon-logo:focus {
-  transform: scale(1.4);
+	transform: scale(1.4);
 }
 .page-header-icon-burger {
-  width: 24px;
-  height: 17px;
-  stroke: #fff;
+	width: 24px;
+	height: 17px;
+	stroke: #fff;
 }
 
 .page-header-burger-button {
-  width: 40px;
-  height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: transparent;
-  border: none;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: transparent;
+	border: none;
 }
 
 .page-header-nav {
-  display: none;
+	display: none;
+}
+
+.page-header-logo-link {
+	position: relative;
+	z-index: 1100;
 }
 
 @media screen and (min-width: 835px) {
-  .page-header-wrapper {
-    padding: 0 32px;
-  }
+	.page-header-wrapper {
+		padding: 0 32px;
+	}
 
-  .page-header-burger-button {
-    display: none;
-  }
-  .page-header-nav-list {
-    display: flex;
-    gap: 32px;
-    font-family: 'Lato';
-    align-items: center;
-    height: 100%;
-  }
-  .page-header-nav-list-link {
-    font-weight: 700;
-    font-size: 18px;
-    transition: color 250ms;
-  }
-  .page-header-nav-list-link:hover,
-  .page-header-nav-list-link:focus {
-    color: rgb(201, 211, 206);
-  }
-  .page-header-nav {
-    display: block;
-  }
+	.page-header-burger-button {
+		display: none;
+	}
+	.page-header-nav-list {
+		display: flex;
+		gap: 32px;
+		font-family: 'Lato';
+		align-items: center;
+		height: 100%;
+	}
+	.page-header-nav-list-link {
+		font-weight: 700;
+		font-size: 18px;
+		transition: color 250ms;
+	}
+	.page-header-nav-list-link:hover,
+	.page-header-nav-list-link:focus {
+		color: rgb(201, 211, 206);
+	}
+	.page-header-nav {
+		display: block;
+	}
 }
 
 @media screen and (min-width: 1440px) {
-  .page-header-nav-list {
-    display: flex;
-    gap: 64px;
-  }
-  .page-header-nav-list-link {
-    font-weight: 700;
-    font-size: 18px;
-  }
+	.page-header-nav-list {
+		display: flex;
+		gap: 64px;
+	}
+	.page-header-nav-list-link {
+		font-weight: 700;
+		font-size: 18px;
+	}
 }
