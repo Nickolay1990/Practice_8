@@ -1,0 +1,28 @@
+#about .section-text:not(:last-child) {
+	margin-bottom: 32px;
+}
+
+@media screen and (min-width: 835px) {
+	#about {
+		padding-top: 155px;
+	}
+	.about-text-wrapper {
+		display: flex;
+		gap: 32px;
+	}
+	.about-text-wrapper > * {
+		width: calc((100% - 32px) / 2);
+	}
+	#about .about-text-wrapper > :first-child {
+		margin-bottom: 0;
+	}
+}
+
+@media screen and (min-width: 1440px) {
+	#about {
+		padding-top: 171px;
+	}
+	#about .container {
+		padding: 0 208px;
+	}
+}
