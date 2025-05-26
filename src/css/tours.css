@@ -1,0 +1,83 @@
+.tours-image {
+	margin-bottom: 16px;
+}
+
+.tours-block-title {
+	font-weight: 400;
+	font-size: 24px;
+	margin-bottom: 16px;
+}
+
+#tours .section-text {
+	margin-bottom: 16px;
+}
+
+.tours-list-title {
+	font-weight: 400;
+	font-size: 18px;
+	margin-bottom: 16px;
+}
+
+.tours-list {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.tours-list-item {
+	display: flex;
+	gap: 16px;
+	align-items: center;
+}
+
+.tours-list-item-icon {
+	width: 24px;
+	height: 24px;
+	fill: #fff;
+}
+
+.tours-list-item-text {
+	font-family: 'Lato', sans-serif;
+}
+
+.tours-wrapper {
+	margin-bottom: 32px;
+}
+
+.tours-book-link {
+	display: block;
+	width: 100%;
+	height: 54px;
+	background: #394014;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 4px;
+	margin-bottom: 16px;
+}
+
+.tours-button-wrapper {
+	display: flex;
+	gap: 50px;
+	justify-content: center;
+	align-items: center;
+}
+
+.tours-swap-button {
+	background-color: transparent;
+	border: none;
+}
+
+.tours-swap-button:disabled > svg {
+	stroke: #5a5959;
+}
+
+.tours-swap-icon {
+	stroke: #fff;
+	width: 30px;
+	height: 30px;
+}
+
+.left-arrow {
+	transform: rotateY(180deg);
+}
