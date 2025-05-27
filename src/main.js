@@ -17,3 +17,5 @@ DOM.gallerySwipe.forEach(button =>
 		handlers.swipeHandler(button, gallerySwiper)
 	)
 );
+
+console.log(document.querySelectorAll('[data-button-type="gallery"]'));
