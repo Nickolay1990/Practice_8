@@ -1,6 +1,6 @@
 <section class="section-padding" id="tours">
 	<h2 class="section-title">Our tours</h2>
-	<div class="swiper">
+	<div class="swiper tours-swiper">
 		<ul class="swiper-wrapper">
 			<li class="swiper-slide">
 				<picture>
@@ -289,9 +289,10 @@
 	</div>
 	<div class="tours-button-wrapper">
 		<button
-			class="tours-swap-button swiper-button-prev"
+			class="tours-swap-button"
 			type="button"
 			data-swipe-tours="prev"
+			data-button-type="tours"
 			disabled
 		>
 			<svg class="tours-swap-icon left-arrow">
@@ -299,9 +300,10 @@
 			</svg>
 		</button>
 		<button
-			class="tours-swap-button swiper-button-next"
+			class="tours-swap-button"
 			type="button"
 			data-swipe-tours="next"
+			data-button-type="tours"
 		>
 			<svg class="tours-swap-icon">
 				<use href="/img/symbol-defs.svg#arrow"></use>

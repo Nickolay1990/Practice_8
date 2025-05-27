@@ -1,21 +1,22 @@
 import DOM from './navigation';
-import { swiper } from './swiper';
 
 export function mobileMenuHandler() {
 	DOM.mobileMenu.classList.toggle('is-open');
 	document.body.classList.toggle('no-scroll');
 }
 
-export function swiperTours() {
-	const way = this.dataset.swipeTours;
+export function swipeHandler(button, swiper) {
+	const way = Object.values(button.dataset)[0];
+	const type = button.dataset.buttonType;
+	const buttons = document.querySelectorAll(`[data-button-type=${type}]`);
 
 	way === 'next' ? swiper.slideNext() : swiper.slidePrev();
 
-	setSwiperDisabled();
+	setSwiperButtonDisabled(buttons, swiper);
 }
 
-function setSwiperDisabled() {
-	const [prev, next] = DOM.toursSwipe;
+function setSwiperButtonDisabled(buttons, swiper) {
+	const [prev, next] = buttons;
 
 	swiper.isBeginning ? (prev.disabled = true) : (prev.disabled = false);
 	swiper.isEnd ? (next.disabled = true) : (next.disabled = false);

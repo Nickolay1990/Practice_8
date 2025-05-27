@@ -3,6 +3,7 @@
 @import url(./mobile.css);
 @import url(./about.css);
 @import url(./tours.css);
+@import url(./gallery.css);
 
 @font-face {
 	font-family: 'Jomolhari';
@@ -77,6 +78,7 @@ select {
 
 .section-padding {
 	padding-top: 80px;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
 }
 
 .section-title {
