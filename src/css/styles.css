@@ -4,6 +4,7 @@
 @import url(./about.css);
 @import url(./tours.css);
 @import url(./gallery.css);
+@import url(./reviews.css);
 
 @font-face {
 	font-family: 'Jomolhari';
@@ -101,4 +102,30 @@ select {
 
 .no-scroll {
 	overflow: hidden;
+}
+
+.button-wrapper {
+	display: flex;
+	gap: 50px;
+	justify-content: center;
+	align-items: center;
+}
+
+.swap-button {
+	background-color: transparent;
+	border: none;
+}
+
+.swap-button:disabled > svg {
+	stroke: #5a5959;
+}
+
+.swap-icon {
+	stroke: #fff;
+	width: 30px;
+	height: 30px;
+}
+
+.left-arrow {
+	transform: rotateY(180deg);
 }

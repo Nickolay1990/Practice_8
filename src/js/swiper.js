@@ -3,7 +3,6 @@ import 'swiper/css';
 import { Navigation } from 'swiper/modules';
 
 export const ToursSwiper = new Swiper('.tours-swiper', {
-	slidesPerView: 1,
 	spaceBetween: 32,
 	allowTouchMove: false,
 	breakpoints: {
@@ -13,14 +12,8 @@ export const ToursSwiper = new Swiper('.tours-swiper', {
 });
 
 export const gallerySwiper = new Swiper('.gallery-swiper', {
-	// modules: [Navigation],
-	slidesPerView: 1,
 	spaceBetween: 16,
 	allowTouchMove: false,
-	// navigation: {
-	// 	nextEl: '#swipe-gallery-next',
-	// 	prevEl: '#swipe-gallery-prev',
-	// },
 	breakpoints: {
 		360: { slidesPerView: 1 },
 		835: {
@@ -28,8 +21,29 @@ export const gallerySwiper = new Swiper('.gallery-swiper', {
 			slidesPerGroup: 2,
 		},
 		1440: {
-			slidesPerView: 3.4,
+			slidesPerView: 3,
 			slidesPerGroup: 3,
+		},
+	},
+});
+
+export const reviewsSwiper = new Swiper('.reviews-swiper', {
+	modules: [Navigation],
+	spaceBetween: 32,
+	allowTouchMove: false,
+	navigation: {
+		nextEl: '#swipe-reviews-next',
+		prevEl: '#swipe-reviews-prev',
+	},
+	breakpoints: {
+		360: { slidesPerView: 1 },
+		835: {
+			slidesPerView: 2,
+			slidesPerGroup: 1,
+		},
+		1440: {
+			slidesPerView: 4,
+			slidesPerGroup: 2,
 		},
 	},
 });

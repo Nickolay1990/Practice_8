@@ -3,4 +3,5 @@ export default {
 	mobileMenu: document.querySelector('.mobile-menu'),
 	toursSwipe: document.querySelectorAll('[data-swipe-tours]'),
 	gallerySwipe: document.querySelectorAll('[data-swipe-gallery]'),
+	reviewsCards: document.querySelectorAll('.reviews-card-wrapper'),
 };

@@ -68,31 +68,8 @@
 	border-radius: 4px;
 }
 
-.tours-button-wrapper {
-	display: flex;
-	gap: 50px;
-	justify-content: center;
-	align-items: center;
-	margin-top: 24px;
-}
-
-.tours-swap-button {
-	background-color: transparent;
-	border: none;
-}
-
-.tours-swap-button:disabled > svg {
-	stroke: #5a5959;
-}
-
-.tours-swap-icon {
-	stroke: #fff;
-	width: 30px;
-	height: 30px;
-}
-
-.left-arrow {
-	transform: rotateY(180deg);
+.tours-swiper {
+	margin-bottom: 24px;
 }
 
 .tours-link-wrapper {

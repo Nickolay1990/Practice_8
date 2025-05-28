@@ -1,12 +1,6 @@
 .gallery-swiper {
 	margin-bottom: 20px;
 }
-.gallery-button-wrapper {
-	display: flex;
-	gap: 50px;
-	justify-content: center;
-	align-items: center;
-}
 
 @media screen and (min-width: 835px) {
 	.gallery-button-wrapper {
