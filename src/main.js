@@ -19,4 +19,6 @@ DOM.gallerySwipe.forEach(button =>
 	)
 );
 
+DOM.telInput.addEventListener('input', handlers.handleTelInput);
+
 setEqualHeigth();

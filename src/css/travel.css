@@ -1,0 +1,141 @@
+#travel {
+	background-image: url(/img/travel/travel-back-mob.jpg);
+	@media screen and (min-resolution: 192dpi) {
+		background-image: url(/img/travel/travel-back-mob@2x.jpg);
+	}
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 54px;
+}
+
+#travel .container {
+	background-color: #141a19;
+	backdrop-filter: blur(30px);
+	padding-top: 40px;
+}
+
+.travel-wrapper {
+	margin-bottom: 32px;
+	padding-right: 23px;
+}
+
+.travel-title {
+	font-weight: 400;
+	font-size: 32px;
+	margin-bottom: 24px;
+}
+
+.travel-text:first-of-type {
+	font-family: 'Lato', sans-serif;
+	margin-bottom: 24px;
+}
+
+.travel-form {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	padding-bottom: 39px;
+}
+
+.travel-form-label {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	font-size: 18px;
+}
+
+.travel-form-label-input {
+	background-color: transparent;
+	padding: 14px 12px;
+	border: 1px solid #fff;
+	color: #fff;
+	font-family: 'Lato', sans-serif;
+}
+
+.travel-form-label-input::placeholder {
+	color: #b9b9b9;
+	font-family: 'Lato', sans-serif;
+}
+
+.textarea-height {
+	height: 102px;
+	margin-bottom: 20px;
+}
+
+.travel-form-button {
+	height: 54px;
+	background-color: transparent;
+	border: none;
+	background-color: #394014;
+	color: #fff;
+	transition: 250ms;
+}
+
+.travel-form-button:hover,
+.travel-form-button:focus {
+	border: 1px solid #fff;
+	background: #141a19;
+}
+
+@media screen and (min-width: 835px) {
+	#travel {
+		background-image: url(/img/travel/travel-back-tab.jpg);
+		@media screen and (min-resolution: 192dpi) {
+			background-image: url(/img/travel/travel-back-tab@2x.jpg);
+		}
+		background-position: left center;
+		background-size: 602px;
+		padding: 235px 32px;
+		background-color: rgba(0, 0, 0, 0.2);
+	}
+
+	#travel .container {
+		background-color: #141a19;
+		border: 1px solid #fff;
+		display: flex;
+		padding: 69px 49px;
+		gap: 32px;
+	}
+
+	.travel-wrapper {
+		margin-bottom: 0;
+		padding-right: 0;
+	}
+
+	.travel-form {
+		gap: 12px;
+		padding-bottom: 0;
+		flex-shrink: 0;
+		width: 320px;
+	}
+}
+
+@media screen and (min-width: 1400px) {
+	#travel {
+		background-image: url(/img/travel/travel-back-desk.jpg);
+		@media screen and (min-resolution: 192dpi) {
+			background-image: url(/img/travel/travel-back-desk@2x.jpg);
+		}
+		background-position: 0 100px;
+		background-size: 704px;
+		padding: 235px 32px 235px 376px;
+	}
+
+	#travel .container {
+		padding: 96px 180px;
+		gap: 32px;
+	}
+
+	.travel-wrapper {
+		margin-bottom: 0;
+		padding-right: 0;
+	}
+
+	.travel-form {
+		gap: 12px;
+		padding-bottom: 0;
+		flex-shrink: 0;
+		width: 320px;
+	}
+}

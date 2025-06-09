@@ -21,3 +21,7 @@ function setSwiperButtonDisabled(buttons, swiper) {
 	swiper.isBeginning ? (prev.disabled = true) : (prev.disabled = false);
 	swiper.isEnd ? (next.disabled = true) : (next.disabled = false);
 }
+
+export function handleTelInput() {
+	this.value = this.value.replace(/[^0-9+\-\(\) ]/g, '');
+}

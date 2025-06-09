@@ -66,6 +66,13 @@
 	align-items: center;
 	justify-content: center;
 	border-radius: 4px;
+	transition: 250ms;
+}
+
+.tours-book-link:hover,
+.tours-book-link:focus {
+	border: 1px solid #fff;
+	background: #141a19;
 }
 
 .tours-swiper {

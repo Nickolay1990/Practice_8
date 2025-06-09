@@ -4,4 +4,5 @@ export default {
 	toursSwipe: document.querySelectorAll('[data-swipe-tours]'),
 	gallerySwipe: document.querySelectorAll('[data-swipe-gallery]'),
 	reviewsCards: document.querySelectorAll('.reviews-card-wrapper'),
+	telInput: document.querySelector('.only-tel'),
 };
