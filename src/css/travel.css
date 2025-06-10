@@ -1,5 +1,6 @@
 #travel {
 	background-image: url(/img/travel/travel-back-mob.jpg);
+
 	@media screen and (min-resolution: 192dpi) {
 		background-image: url(/img/travel/travel-back-mob@2x.jpg);
 	}
@@ -10,7 +11,7 @@
 }
 
 #travel .container {
-	background-color: #141a19;
+	background-color: #000;
 	backdrop-filter: blur(30px);
 	padding-top: 40px;
 }
@@ -75,7 +76,7 @@
 .travel-form-button:hover,
 .travel-form-button:focus {
 	border: 1px solid #fff;
-	background: #141a19;
+	background: #000;
 }
 
 @media screen and (min-width: 835px) {
@@ -87,11 +88,10 @@
 		background-position: left center;
 		background-size: 602px;
 		padding: 235px 32px;
-		background-color: rgba(0, 0, 0, 0.2);
 	}
 
 	#travel .container {
-		background-color: #141a19;
+		background-color: #000;
 		border: 1px solid #fff;
 		display: flex;
 		padding: 69px 49px;

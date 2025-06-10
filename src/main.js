@@ -22,3 +22,5 @@ DOM.gallerySwipe.forEach(button =>
 DOM.telInput.addEventListener('input', handlers.handleTelInput);
 
 setEqualHeigth();
+
+DOM.navLinks.addEventListener('click', handlers.handleMobileLinks);

@@ -6,6 +6,7 @@
 @import url(./gallery.css);
 @import url(./reviews.css);
 @import url(./travel.css);
+@import url(./footer.css);
 
 @font-face {
 	font-family: 'Jomolhari';
@@ -35,7 +36,7 @@ html {
 
 body {
 	font-family: Jomolhari, sans-serif;
-	background: #141a19;
+	background: #000;
 	font-weight: 400;
 	font-size: 16px;
 	color: #fff;
@@ -80,7 +81,6 @@ select {
 
 .section-padding {
 	padding-top: 80px;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
 }
 
 .section-title {

@@ -5,4 +5,5 @@ export default {
 	gallerySwipe: document.querySelectorAll('[data-swipe-gallery]'),
 	reviewsCards: document.querySelectorAll('.reviews-card-wrapper'),
 	telInput: document.querySelector('.only-tel'),
+	navLinks: document.querySelector('.mobile-menu-nav-list'),
 };

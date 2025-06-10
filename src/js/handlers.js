@@ -25,3 +25,9 @@ function setSwiperButtonDisabled(buttons, swiper) {
 export function handleTelInput() {
 	this.value = this.value.replace(/[^0-9+\-\(\) ]/g, '');
 }
+
+export function handleMobileLinks(event) {
+	if (event.target.tagName === 'A') {
+		mobileMenuHandler();
+	}
+}
