@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/Unlock_wonders/",
+    "build": "vite build --base=/wonders/",
     "preview": "vite preview"
   },
   "devDependencies": {
